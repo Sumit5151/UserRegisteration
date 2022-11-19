@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="DataLayer\" />
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
 </Project>

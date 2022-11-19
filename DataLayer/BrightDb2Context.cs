@@ -83,7 +83,13 @@ public partial class BrightDb2Context : DbContext
             entity.Property(e => e.EmailId)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.Gender)
+                .HasMaxLength(10)
+                .IsUnicode(false);
             entity.Property(e => e.MobileNumber)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.Password)
                 .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.UserName)
